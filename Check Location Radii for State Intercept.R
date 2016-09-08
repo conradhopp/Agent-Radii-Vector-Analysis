@@ -33,4 +33,4 @@ intdata <- t(gIntersects(circ, state_lines, byid = TRUE))
 totaldata <- cbind(data$Campaign,t(intdata))
 
 #write the matrix out into a csv file
-write.csv(intdata, "C:/Users/chopp/Documents/R/Agents Intercepts 4.csv")
+write.csv(intdata, "C:/Users/chopp/Documents/R/intercept_data.csv")
